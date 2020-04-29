@@ -1,5 +1,4 @@
 <script>
-  import { code } from "./store";
   import { onMount, onDestroy } from "svelte";
 
   import Titlebar from "./components/Titlebar.svelte";
