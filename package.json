@@ -20,7 +20,6 @@
     "electron",
     "retro"
   ],
-  "author": "Julius Weber",
   "license": "MIT",
   "config": {
     "forge": {
