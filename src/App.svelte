@@ -1,7 +1,9 @@
 <script>
   import { code } from "./store";
   import { onMount, onDestroy } from "svelte";
+
   import Titlebar from "./components/Titlebar.svelte";
+  import WindowBody from "./components/WindowBody.svelte";
 
   let unsubCode;
   let codeVal = "";
@@ -26,7 +28,5 @@
 
 <div class="window" style="margin: 0; width: 100%; height: 100%; padding: 0;">
   <Titlebar title="Hello World!" />
-  <div class="window-body">
-    <p>Hello, world!</p>
-  </div>
+  <WindowBody />
 </div>
