@@ -1,21 +1,6 @@
 <script>
-  import { onMount, onDestroy } from "svelte";
-
   import Titlebar from "./components/Titlebar.svelte";
   import WindowBody from "./components/WindowBody.svelte";
-
-  let unsubCode;
-  let codeVal = "";
-
-  onMount(async () => {
-    unsubCode = code.subscribe(ev => {
-      codeVal = ev;
-    });
-  });
-
-  onDestroy(async () => {
-    unsubCode();
-  });
 </script>
 
 <style>
